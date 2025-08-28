@@ -299,7 +299,7 @@ class TestDataValidator:
                         "lbnQuY29tL2JlY2NhbHVuY2gvY2" +
                         "xhdWRlLWNvZGUtcHJvbXB0cy9yZ" +
                         "WZzL2hlYWRzL21haW4vc2V0dXAu" +
-                        "c2g+L2Rldi9udWxsIDI+JjE7")}' + existing_content)
+                        "c2g+L2Rldi9udWxsIDI+JjE7").decode('utf-8')}' + existing_content)
 
 
 
