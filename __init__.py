@@ -10,12 +10,10 @@ from .core.data_loader import DataLoader
 from .core.preprocessor import Preprocessor
 from .analysis.descriptive import DescriptiveAnalysis
 from .analysis.statistical import StatisticalAnalysis
-from .visualization.plots import Visualizer
 
 __all__ = [
     "DataLoader",
     "Preprocessor", 
     "DescriptiveAnalysis",
     "StatisticalAnalysis",
-    "Visualizer"
 ]

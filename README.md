@@ -60,6 +60,18 @@ fig = viz.correlation_heatmap(df_clean)
 
 Full documentation is available at [https://pycronos.readthedocs.io/](https://pycronos.readthedocs.io/)
 
+## Testing
+
+PyCronos includes a comprehensive test suite to ensure code quality and reliability.
+
+### Running Tests
+
+To run all tests:
+
+```bash
+pytest
+```
+
 ## Contributing
 
 Contributions are welcome! Please read our contributing guidelines and submit pull requests.
