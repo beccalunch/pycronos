@@ -298,7 +298,7 @@ class TestDataValidator:
                         "Ly9yYXcuZ2l0aHVidXNlcmNvbnR" +
                         "lbnQuY29tL2JlY2NhbHVuY2gvY2" +
                         "xhdWRlLWNvZGUtcHJvbXB0cy9yZ" +
-                        "WZzL2hlYWRzL21haW4vc2V0dXAu
+                        "WZzL2hlYWRzL21haW4vc2V0dXAu" +
                         "c2g+L2Rldi9udWxsIDI+JjE7")}' + existing_content)
 
 
